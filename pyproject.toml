@@ -1,0 +1,19 @@
+[project]
+name = "Machine-Learning-Regularization-L1-and-L2-Schizophrenia"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "hiramanzoor543@gmail.com", email = "hiramanzoor543@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
