@@ -34,3 +34,8 @@ Project: Repo/
 - Plotted model accuracy against different lambda values.
 - Identified optimal lambda for a well-generalized model.
 - Demonstrated difference between sparse (L1) and dense (L2) coefficient patterns.
+
+## Author:
+- Hira
+- MS. Life Science Informatics
+- University of Bonn
