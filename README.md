@@ -37,5 +37,5 @@ Project: Repo/
 
 ## Author:
 - Hira
-- MS. Life Science Informatics
+- Life Science Informatics
 - University of Bonn
