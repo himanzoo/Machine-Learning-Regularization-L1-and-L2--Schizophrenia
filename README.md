@@ -15,7 +15,7 @@ Project: Repo/
 │ ├── synthetic_features.csv # Synthetic Schizophrenia gene expression features of  
 │ ├── synthetic_labels.csv # Synthetic binary labels (0/1)
 ├── src/
-│ ├── Code.py # Main script
+│ ├── Script.py # Main script
   ├── Code.ipynb # Jupyter Notebook
 ├── README.md
 
