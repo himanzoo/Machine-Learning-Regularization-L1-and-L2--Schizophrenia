@@ -6,15 +6,8 @@
    "metadata": {},
    "source": [
     "### Machine Learning Model Regularization (L1 and L2)\n",
-    "In this project we will compare the accuracy of different regularization a high-dimensional (p>>n) dataset. "
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "db865260",
-   "metadata": {},
-   "source": [
-    "(A): Load the Schizophrenia dataset (schizophrenia_data.csv) and extract the class labels from the schizophrenia_labels.csv table (2 classes, “control” and “schizophrenia”). Randomly split the data into 70% training and 30% test. (Hint: Use the train_test_split function from scikit-learn to define the test_size and set random_state=1 for better reproducibility.)\n"
+    "In this project I will compare the accuracy of different regularization on high-dimensional (p>>n) dataset. \n",
+    "#### NOTE: I HAVE REGULARIZE ON REAL SCHIZOPHRENIA DATASET, BUT HERE I WILL NOT UPLOAD IT DUE TO PRIVACY CONCERN. HERE I REPLACE REAL DATASET WITH SYNTHETIC DATA SET (THAT I GENERATE SYNTHETIC DATASETS)"
    ]
   },
   {
@@ -109,7 +102,7 @@
    "id": "47e87e1f",
    "metadata": {},
    "source": [
-    "(B): Fit a logistic regression (no penalization)\n"
+    "Fit a logistic regression (no penalization)\n"
    ]
   },
   {
@@ -144,7 +137,7 @@
    "id": "d6df5837",
    "metadata": {},
    "source": [
-    "(C):  Fit multiple l1-penalized logistic regressions (lambdas = 0.001, 0.01, 0.1, 1, 10, 100)\n",
+    "Fit multiple l1-penalized logistic regressions (lambdas = 0.001, 0.01, 0.1, 1, 10, 100)\n",
     "Hint: Please read the documentation and choose a solver that would work well with your dataset and penalization method. \n",
     "Hint: Scikit-learn uses a parameter called C, where C = 1/lambda.\n"
    ]
@@ -203,7 +196,7 @@
    "id": "23428043",
    "metadata": {},
    "source": [
-    "(D):  Fit multiple l2-penalized logistic regressions (lambdas = 0.001, 0.01, 0.1, 1, 10, 100) (2 points)\n",
+    "Fit multiple l2-penalized logistic regressions (lambdas = 0.001, 0.01, 0.1, 1, 10, 100) (2 points)\n",
     "Hint: Please read the documentation and choose a solver that would work well with your dataset and penalization method.\n",
     "Hint: Scikit-learn uses a parameter called C, where C = 1/lambda.\n"
    ]
@@ -262,7 +255,7 @@
    "id": "e8872e5b",
    "metadata": {},
    "source": [
-    "(E):  For the models from (b), (c), and (d) measure the performance in terms of accuracy, F1 Score, AUROC and average precision recall score on the training and test set.\n",
+    "For the models above, measure the performance in terms of accuracy, F1 Score, AUROC and average precision recall score on the training and test set.\n",
     "Hint: For the areas under the curves (AUROC / AUPR), we need to consider predicted class probabilities instead of only binarized class predictions.\n"
    ]
   },
